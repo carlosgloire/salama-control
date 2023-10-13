@@ -43,7 +43,10 @@ section {
   flex-direction: row;
   justify-content: space-between;
 }
-.sub_menu a {
+.sub_menu .disconnect i {
+  display: none;
+}
+.sub_menu .disconnect .btn_1 {
   background-color: var(--yellow);
   color: var(--teal_color);
   padding: 5px;
@@ -59,8 +62,8 @@ section {
   gap: 15px;
 }
 .sub_menu div p img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   border-radius: 50px;
 }
 .sub_menu div h2 {
@@ -99,6 +102,16 @@ section {
 .left-bloc .nav_links a:hover {
   color: var(--teal_color);
   background-color: var(--yellow);
+}
+.left-bloc .nav_links .btn_2 {
+  display: none;
+  margin-top: 100px;
+  background-color: var(--yellow);
+  color: var(--teal_color);
+  padding: 5px;
+  font-family: "Sen", sans-serif;
+  border: none;
+  border-radius: 5px;
 }
 
 .right-bloc {
@@ -248,6 +261,9 @@ th, td {
 }
 
 @media (max-width: 768px) {
+  .menu .sub_menu .disconnect .btn_1 {
+    display: none;
+  }
   section {
     grid-template-columns: 1fr;
   }

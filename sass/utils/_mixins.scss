@@ -1,20 +1,13 @@
 //Element positions
 
-@mixin element_start{
-    gap: 10px;
-    -webkit-gap: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: start;
-}
-@mixin element_end{
-    gap: 10px;
-    -webkit-gap: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: end;
+
+@mixin disconnect_button{
+    background-color: var(--yellow);
+    color: var(--teal_color);
+    padding: 5px;
+    font-family: u.$font;
+    border: none;
+    border-radius: 5px;
 }
 
 
