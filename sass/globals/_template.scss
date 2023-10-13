@@ -12,7 +12,6 @@ body{
 section{
     display: grid;
     grid-template-columns: 20% auto;
-    border: 1px solid red;
 }
 .menu{
     background-color: var(--yellow);
@@ -142,7 +141,6 @@ section{
     }
     .table_scrolling_area{
         width: 100%;
-        border: 1px solid green;
         overflow: auto;
         height: 53vh;
     }

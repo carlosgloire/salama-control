@@ -24,7 +24,6 @@ body {
 section {
   display: grid;
   grid-template-columns: 20% auto;
-  border: 1px solid red;
 }
 
 .menu {
@@ -160,7 +159,6 @@ section {
 }
 .right-bloc .table_scrolling_area {
   width: 100%;
-  border: 1px solid green;
   overflow: auto;
   height: 53vh;
 }
@@ -263,7 +261,6 @@ th, td {
 }
 @media (max-width: 480px) {
   .right-bloc .table_scrolling_area {
-    border: 1px solid green;
     width: 100%;
   }
   .right-bloc .table_scrolling_area table {

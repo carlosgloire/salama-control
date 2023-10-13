@@ -15,7 +15,6 @@
   @include u.breakpoints(mobile){
     .right-bloc{
       .table_scrolling_area{
-        border: 1px solid green;
         width: 100%;
         table{
           width: 130%;
