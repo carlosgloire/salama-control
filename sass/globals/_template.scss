@@ -10,7 +10,7 @@ body{
 }
 section{
     display: grid;
-    grid-template-columns: 15% auto;
+    grid-template-columns: 20% auto;
 }
 .menu{
     background-color: var(--yellow);
@@ -58,9 +58,11 @@ section{
     .nav_links{
         display: grid;
         gap: 30px;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 35px;
+        padding-right: 35px;
+        text-align: center;
         .active{
+            text-align: center;
             background-color: var(--yellow);
             color: var(--teal_color);
             padding: 5px;
