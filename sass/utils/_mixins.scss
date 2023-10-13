@@ -1,0 +1,28 @@
+//Element positions
+
+@mixin element_start{
+    gap: 10px;
+    -webkit-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+@mixin element_end{
+    gap: 10px;
+    -webkit-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+
+
+@mixin display_flex{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
