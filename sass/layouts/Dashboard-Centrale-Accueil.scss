@@ -1,15 +1,18 @@
 @use '../utils/' as u;
 
 @include u.breakpoints(tablet){
-  .menu{
+  
     .sub_menu{
       .disconnect{
+        i{
+          display: inline;
+        }
         .btn_1{
           display: none;
         }
       } 
     }
-  }  
+  
     section{
       grid-template-columns: 1fr;
       .right-bloc{

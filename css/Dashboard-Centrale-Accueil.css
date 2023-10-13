@@ -1,5 +1,8 @@
 @media (max-width: 768px) {
-  .menu .sub_menu .disconnect .btn_1 {
+  .sub_menu .disconnect i {
+    display: inline;
+  }
+  .sub_menu .disconnect .btn_1 {
     display: none;
   }
   section {
