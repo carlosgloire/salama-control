@@ -12,6 +12,7 @@ body{
 section{
     display: grid;
     grid-template-columns: 20% auto;
+    border: 1px solid red;
 }
 .menu{
     background-color: var(--yellow);
@@ -87,8 +88,8 @@ section{
 }
 .right-bloc{
     padding-top: 30px;
-    width: 90%;
-    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
     display: grid;
     gap: 20px;
     .search_area{
@@ -140,6 +141,8 @@ section{
         }
     }
     .table_scrolling_area{
+        width: 100%;
+        border: 1px solid green;
         overflow: auto;
         height: 53vh;
     }
