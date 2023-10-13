@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <title>Dashboard Centrale - Accueil</title>
+        <script src="js/script.js"></script>
     </head>
     <body>
             <header class="menu">
@@ -21,7 +22,7 @@
                     <p><img src="Images/panda.jpg" alt=""></p>
                     <h2>Salama <span>Control</span></h2>
                 </div>
-                <button>Se connecter</button>
+                <a href="#">Se connecter</a>
             </div>
             <section>
                 <div class="left-bloc">
@@ -41,83 +42,113 @@
                     </div>
                     <div class="blocs">
                         <div class="bloc1">
-                            <h1>304</h1>
+                            <h1  class="counter" id="counter1">1</h1>
                             <p>Chauffeurs</p>
                         </div>
                         <div class="bloc2">
-                            <h1>132</h1>
+                            <h1  class="counter" id="counter2">1</h1>
                             <p>En ordre</p>
                         </div>
                         <div class="bloc3">
-                            <h1>172</h1>
+                            <h1   class="counter" id="counter3">1</h1>
                             <p>{En desordre}</p>
                         </div>
                     </div>
                     
                     <div id="table">
                         <p>Chauffeurs en etat critique</p>
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <td></td>
-                                    <td>Noms</td>
-                                    <td>#Plaque</td>
-                                    <td>Etat</td>
-                                    <td>| Actions</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><img src="Images/gloire.png" alt=""></td>
-                                    <td>Ndayisaba Gloire</td>
-                                    <td>5028</td>
-                                    <td><p>Critique</p></td>
-                                    <td><button>Signaler</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="Images/gloire.png" alt=""></td>
-                                    <td>Ndayisaba Gloire</td>
-                                    <td>5028</td>
-                                    <td><p>Critique</p></td>
-                                    <td><button>Signaler</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="Images/gloire.png" alt=""></td>
-                                    <td>Ndayisaba Gloire</td>
-                                    <td>5028</td>
-                                    <td><p>Critique</p></td>
-                                    <td><button>Signaler</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="Images/gloire.png" alt=""></td>
-                                    <td>Ndayisaba Gloire</td>
-                                    <td>5028</td>
-                                    <td><p>Critique</p></td>
-                                    <td><button>Signaler</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="Images/gloire.png" alt=""></td>
-                                    <td>Ndayisaba Gloire</td>
-                                    <td>5028</td>
-                                    <td><p>Critique</p></td>
-                                    <td><button>Signaler</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="Images/gloire.png" alt=""></td>
-                                    <td>Ndayisaba Gloire</td>
-                                    <td>5028</td>
-                                    <td><p>Critique</p></td>
-                                    <td><button>Signaler</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="Images/gloire.png" alt=""></td>
-                                    <td>Ndayisaba Gloire</td>
-                                    <td>5028</td>
-                                    <td><p>Critique</p></td>
-                                    <td><button>Signaler</button></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table_scrolling_area">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <td></td>
+                                        <td>Noms</td>
+                                        <td>#Plaque</td>
+                                        <td>Etat</td>
+                                        <td>| Actions</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="Images/gloire.png" alt=""></td>
+                                        <td>Ndayisaba Gloire</td>
+                                        <td>5028</td>
+                                        <td><p>Critique</p></td>
+                                        <td><button>Signaler</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/gloire.png" alt=""></td>
+                                        <td>Ndayisaba Gloire</td>
+                                        <td>5028</td>
+                                        <td><p>Critique</p></td>
+                                        <td><button>Signaler</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/gloire.png" alt=""></td>
+                                        <td>Ndayisaba Gloire</td>
+                                        <td>5028</td>
+                                        <td><p>Critique</p></td>
+                                        <td><button>Signaler</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/gloire.png" alt=""></td>
+                                        <td>Ndayisaba Gloire</td>
+                                        <td>5028</td>
+                                        <td><p>Critique</p></td>
+                                        <td><button>Signaler</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/gloire.png" alt=""></td>
+                                        <td>Ndayisaba Gloire</td>
+                                        <td>5028</td>
+                                        <td><p>Critique</p></td>
+                                        <td><button>Signaler</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/gloire.png" alt=""></td>
+                                        <td>Ndayisaba Gloire</td>
+                                        <td>5028</td>
+                                        <td><p>Critique</p></td>
+                                        <td><button>Signaler</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/gloire.png" alt=""></td>
+                                        <td>Ndayisaba Gloire</td>
+                                        <td>5028</td>
+                                        <td><p>Critique</p></td>
+                                        <td><button>Signaler</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/gloire.png" alt=""></td>
+                                        <td>Ndayisaba Gloire</td>
+                                        <td>5028</td>
+                                        <td><p>Critique</p></td>
+                                        <td><button>Signaler</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/gloire.png" alt=""></td>
+                                        <td>Ndayisaba Gloire</td>
+                                        <td>5028</td>
+                                        <td><p>Critique</p></td>
+                                        <td><button>Signaler</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/gloire.png" alt=""></td>
+                                        <td>Ndayisaba Gloire</td>
+                                        <td>5028</td>
+                                        <td><p>Critique</p></td>
+                                        <td><button>Signaler</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/gloire.png" alt=""></td>
+                                        <td>Ndayisaba Gloire</td>
+                                        <td>5028</td>
+                                        <td><p>Critique</p></td>
+                                        <td><button>Signaler</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </section>    
