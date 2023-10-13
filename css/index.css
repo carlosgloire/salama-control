@@ -95,6 +95,7 @@ section {
   border-radius: 5px;
   border: 1px solid var(--yellow);
   border-bottom: 2px solid var(--yellow);
+  transition: background-color 0.5s;
 }
 .left-bloc .nav_links a:hover {
   color: var(--teal_color);
