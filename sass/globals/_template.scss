@@ -32,6 +32,8 @@ section{
         .btn_1{
             background-color: var(--yellow);
             color: var(--teal_color);
+            padding-left: 10px;
+            padding-right: 10px;
             padding: 5px;
             font-family: u.$font;
             border: none;
@@ -48,7 +50,7 @@ section{
                 border-radius: 50px;
             }
         }
-        h2{
+        h3{
             color: var(--yellow);
         }
     }
@@ -59,7 +61,7 @@ section{
     background-color: var(--teal_color);
     margin-top: 20px;
     padding-top: 40px;
-   
+    margin-bottom: 5px;
     .nav_links{
         display: grid;
         gap: 30px;
@@ -157,7 +159,7 @@ section{
     .table_scrolling_area{
         width: 100%;
         overflow: auto;
-        height: 53vh;
+        height: 56vh;
     }
 
     table{
@@ -215,8 +217,7 @@ section{
 }
 
 footer{
-    position: absolute;
-    bottom: 0;
+
     width: 100%;
     background-color: var(--teal_color);
     color: var(--white);
