@@ -188,7 +188,7 @@ section {
 }
 .right-bloc .table_scrolling_area {
   overflow: auto;
-  height: 60vh;
+  max-height: auto;
   margin-bottom: 5px;
 }
 .right-bloc table {
