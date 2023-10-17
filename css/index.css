@@ -178,7 +178,7 @@ section {
   border-bottom-left-radius: 8px;
 }
 .right-bloc .blocs .bloc2 {
-  background: linear-gradient(105deg, rgb(164, 252, 164), var(--green));
+  background: linear-gradient(105deg, rgb(114, 255, 114), var(--green));
 }
 .right-bloc .blocs .bloc3 {
   background: linear-gradient(90deg, var(--yellow), var(--orange));
